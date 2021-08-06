@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "streamify",
+    "slug": "streamify",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "streamify"
+}
