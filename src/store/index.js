@@ -14,11 +14,10 @@ const logActions = () => (next) => (action) => {
 
 const sagaMiddleware = createSagaMiddleware();
 
-const configure = (initialState) => {
+const configure = () => {
   // CREATE STORE
   const store = createStore(
     rootReducer,
-    initialState,
     applyMiddleware(sagaMiddleware, logActions)
   );
 
