@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Text, View } from "react-native";
-
 const Test = ({ test, testAction }) => (
   <View>
     {/* <Header title="Testing" /> */}
